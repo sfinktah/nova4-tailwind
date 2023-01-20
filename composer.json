@@ -1,5 +1,5 @@
 {
-  "name": "optimistdigital/nova-tailwind",
+  "name": "sfinktah/nova4-tailwind",
   "description": "Tailwind loader for Laravel Nova.",
   "keywords": [
     "laravel",
@@ -8,6 +8,11 @@
     "css"
   ],
   "authors": [
+    {
+      "name": "Christopher Anderson",
+      "email": "sfinktah@laravel.spamtrak.org",
+      "role": "Developer"
+    },
     {
       "name": "Tarvo Reinpalu",
       "email": "tarvoreinpalu@gmail.com",
@@ -22,17 +27,17 @@
   "license": "MIT",
   "require": {
     "php": ">=7.1.0",
-    "laravel/nova": "^1.0 || ^2.0 || ^3.0"
+    "laravel/nova": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "OptimistDigital\\Tailwind\\": "src/"
+      "Sfinktah\\Tailwind\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "OptimistDigital\\Tailwind\\TailwindServiceProvider"
+        "Sfinktah\\Tailwind\\TailwindServiceProvider"
       ]
     }
   },

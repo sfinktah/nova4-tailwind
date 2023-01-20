@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\Tailwind;
+namespace Sfinktah\Tailwind;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
